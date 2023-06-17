@@ -1,9 +1,9 @@
 
-$('.autoplay').slick({
+$('.variable-width').slick({
     dots: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    dotsClass: "my-dots",
-    autoplay: true,
-    autoplaySpeed: 2000,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true
 });
