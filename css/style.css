@@ -1,9 +1,15 @@
 .slider {
-    width: 1300px;
+    width: 1200px;
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
 
+}
 
-
+.slick-prev:before, .slick-next:before {
+    color: brown;
+        font-size: 40px;
+}
+.slick-prev {
+    left: -50px;
 }

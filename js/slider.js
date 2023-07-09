@@ -1,4 +1,3 @@
-
 $('.variable-width').slick({
     dots: true,
     infinite: true,
